@@ -16,12 +16,8 @@ This guide is divided into 6 sections, each relating to a different aspect of us
 > [!info]
 > Many of the programs used in this workshop are curated from the excellent [pico-examples](https://github.com/raspberrypi/pico-examples) repository. Check it out to learn more!
 # About the Raspberry Pi Pico Series
-## Important Info and Datasheets
-Raspberry Pi has published the following useful documents regarding the Pico series:
-- https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
-- https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
-- https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
-- https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf
+View the pinout and other documentation: [[pico-info|Raspberry Pi Pico 2 W Info]].
+
 ---
 # Let's Go!
 Head over [Getting Started](getting-started) to set up your development environment for Raspberry Pi Pico.
