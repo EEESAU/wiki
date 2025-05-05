@@ -1,0 +1,6 @@
+- [ ] Blink LED breadboard
+- [ ] Momentary switch/pushbutton
+- [ ] PWM LED
+- [ ] Analog input/ADC and potentiometer
+- [ ] ADC Onboard temperature
+- [ ] 7 Segment?
