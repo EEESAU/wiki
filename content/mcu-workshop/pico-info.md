@@ -14,3 +14,4 @@ Raspberry Pi has published the following useful documents regarding the Pico ser
 - https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
 - https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
 - https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf
+- https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf
