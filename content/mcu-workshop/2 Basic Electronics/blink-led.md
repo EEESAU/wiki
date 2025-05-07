@@ -12,7 +12,7 @@ Connect the +ve terminal of the LED (has a longer leg) to `GP15` (Pin 20), and t
 Compile and upload the `blink-led` program from the workshop repository to see the LED flash on and off.
 
 The program uses the following functions from `pico/stdlib.h:
-```C++
+```c++
 // Initialise a pin to be used for GPIO.
 //   - gpio is the GPIO number, not the Pin number.
 void gpio_init(uint gpio);
@@ -38,10 +38,15 @@ The LED has a forwards voltage drop of around 2 V, and can tolerate a maximum sa
 - When the LED is turned on, it is modelled as an ideal voltage source.
 
 Apply KVL around the loop:
+
 $$-V_{CC}+V_R+V_f=0$$
+
 $$\Rightarrow V_R=V_{CC}-V_f=3.3-2=1.3\text{V}$$
+
 Use Ohm's law to find the resistance:
+
 $$R=\frac{V_R}{I}=\frac{1.3}{0.005}=260\Omega$$
+
 We normalise this to an E12 series value and get $270\Omega$ for the resistance.
 # Activities
 >[!Exercise] 
