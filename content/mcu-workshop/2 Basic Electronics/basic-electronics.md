@@ -1,6 +1,5 @@
-- [ ] Blink LED breadboard
-- [ ] Momentary switch/pushbutton
-- [ ] PWM LED
-- [ ] Analog input/ADC and potentiometer
-- [ ] ADC Onboard temperature
-- [ ] 7 Segment?
+- [x] Digital output with an LED
+- [ ] Digital input with a switch
+- [ ] Analog output with PWM and RGB LED
+- [ ] Analog input with ADC
+- [ ] ADC and onboard temperature sensor
