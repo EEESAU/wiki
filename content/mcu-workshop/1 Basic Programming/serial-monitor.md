@@ -7,6 +7,11 @@ No additional components.
 # Exercise
 You can use a USB serial monitor program to trace output logs from the Pico. This is useful to print out some basic debugging information or to get some external input.
 
+In the C code, you need to add the following function call to your `main()` function, to turn on the serial communication:
+```c
+stdio_init_all();
+```
+
 VSCode has a built-in serial monitor, you can find it as one of the tabs in the "Terminal":
 ![[VSCode Serial Monitor.png]]
 
@@ -15,21 +20,18 @@ Other serial monitor programs are:
 - `minicom` (Linux, macOS)
 
 Build and upload the `serial-monitor` program, connect the serial port and then reset the Pico. You should see a message appear in the log.
+- On Linux/macOS, the serial port is `/dev/ttyACM0`
+- On Windows, the serial port will be called `COM*` where * is a number.
 
 ## Serial Input
-The serial monitor can also be used to send inputs to the Pico over USB. You can do this using the `gets()` function.
+The serial monitor can also be used to send inputs to the Pico over USB. Open the `serial-monitor-input.cpp` file to see how to do this. 
 
-Here's an example of how to receive a string using this function:
-```C++
-// Create an empty string.
-char string[21] = {'\0'};  
-
-// Use fgets to receive up to 20 chars into the string.
-fgets(string, 20, stdin);
-
-// Print the string back again.
-printf("Received string: %s\n", string);
+A helper function has been written to make the process easier.
+```C
+size_t gets_s(char* string, size_t string_size);
 ```
+
+The code in `serial-monitor-input.cpp` asks the user for a password, then prints a message depending on whether it is correct or not.
 
 > [!Exercise]
 > Can you make a **short quiz** using the serial input and output?

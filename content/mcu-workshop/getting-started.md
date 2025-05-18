@@ -50,4 +50,23 @@ Once the file finishes copying, the Pico will disconnect and the green light wil
 
 At this point, you're ready to move on with the rest of the workshop. Go to [[mcu-workshop/1 Basic Programming/index|Basic Programming]] first.
 # Manual Setup (If you don't want to use VSCode)
-**TODO**
+You will need to install the following dependencies:
+- GNU ARM bare metal toolchain (`arm-none-eabi-gcc`)
+- CMake
+
+Download the workshop repository:
+```shell
+git clone https://github.com/EEESAU/pico-workshop.git
+
+cd pico-workshop
+```
+
+Enable the setting to download Pico SDK automatically:
+```shell
+export PICO_SDK_FETCH_FROM_GIT=1
+```
+
+Run CMake to generate build files:
+```shell
+cmake -S . -B build
+```
