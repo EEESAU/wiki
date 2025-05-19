@@ -44,29 +44,39 @@ These files are specially built for the Raspberry Pi Pico 2 W, and they won't ru
 > 
 > To upload new code, drag a `.uf2` file onto the Pico storage.
 
-Put the Pico into BOOTSEL mode, then drag and drop the file `build/onboard_led.uf2` onto it.
+Put the Pico into BOOTSEL mode, then drag and drop the file `build/led-tester.uf2` onto it.
 
 Once the file finishes copying, the Pico will disconnect and the green light will turn on. It just ran our code!
 
 At this point, you're ready to move on with the rest of the workshop. Go to [[mcu-workshop/1 Basic Programming/index|Basic Programming]] first.
 # Manual Setup (If you don't want to use VSCode)
-You will need to install the following dependencies:
-- GNU ARM bare metal toolchain (`arm-none-eabi-gcc`)
-- CMake
+Follow these steps to setup your toolchain without using VSCode.
 
-Download the workshop repository:
+Install the following tools:
+- ARM bare-metal Embedded ABI compiler 
+	- `arm-none-eabi-gcc`
+	- `arm-none-eabi-binutils`
+	- `arm-none-eabi-newlib`
+- CMake
+- Python
+
+Clone the repository:
 ```shell
 git clone https://github.com/EEESAU/pico-workshop.git
-
 cd pico-workshop
 ```
 
-Enable the setting to download Pico SDK automatically:
+Run CMake
+- We need to set an environment variable to enable the SDK to be automatically downloaded.
 ```shell
 export PICO_SDK_FETCH_FROM_GIT=1
+cmake -S ./ -B ./build -DPICO_BOARD=pico2_w -D
 ```
 
-Run CMake to generate build files:
+Compile the `onboard_led` program
 ```shell
-cmake -S . -B build
+cd build
+make onboard_led
 ```
+
+Follow the steps above to put the Pico into BOOTSEL mode and upload the `led-tester.uf2` executable
