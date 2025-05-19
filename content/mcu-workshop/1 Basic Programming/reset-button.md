@@ -5,7 +5,7 @@ Using an external button to reset the Pico. This idea is so advanced, that Raspb
 # Components
 - 1x 2-pin momentary tactile pushbutton
 ---
-# Exercise
+# Instructions
 With the Pico inserted into a solderless breadboard, connect the button between pins `30 (RUN)` and `28 (GND)`. (Use the pinout diagram in [[pico-info|Raspberry Pi Pico 2 W]])
 
 ![[reset-button.png]]

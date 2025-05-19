@@ -14,7 +14,7 @@ The microcontroller (uC) board that we have chosen to use for this workshop is t
 
 This guide is divided into 6 sections, each relating to a different aspect of using the Raspberry Pi Pico 2 W.
 1. [**Basic Programming**](mcu-workshop/1%20Basic%20Programming/index.md): Become more familiar with the development process and tools for Raspberry Pi Pico 2 W
-2. [**Basic Electronics**](2%20Basic%20Electronics/basic-electronics): Interact with basic electronic components.
+2. [**Basic Electronics**](content/mcu-workshop/2%20Basic%20Electronics/index.md): Interact with basic electronic components.
 3. **Advanced Programming**: Learn some more sophisticated techniques of programming for Pico.
 4. **Advanced Electronics**: Use protocol-based communication with integrated circuits.
 5. **USB**: Explore how the Pico can interact with other devices over USB.

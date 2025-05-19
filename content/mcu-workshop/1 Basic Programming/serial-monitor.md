@@ -2,8 +2,16 @@
 title: Serial Monitor
 ---
 Using serial over USB to print messages from the Pico.
-# Components
-No additional components.
+# C Interface
+```C
+#include "pico/stdlib.h"
+
+// Initialise the Standard I/O interface.
+stdio_init_all();
+
+// Print a formatted string
+stdio_printf(const char* format, ...);
+```
 # Exercise
 You can use a USB serial monitor program to trace output logs from the Pico. This is useful to print out some basic debugging information or to get some external input.
 
