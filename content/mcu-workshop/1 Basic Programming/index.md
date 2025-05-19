@@ -1,11 +1,8 @@
- 1.1 Development Convenience
--  [[reset-button|Reset Button]]
--  [[serial-monitor|Serial Monitor]]
--  [[picotool|Picotool]]
--  [[debugging|Debugging]]
-
-1.2 Basic Pico Features
--  [[onboard-led|Onboard LED]]
+-  [[1.1 reset-button|Reset Button]]
+-  [[1.2 serial-monitor|Serial Monitor]]
+-  [[1.3 onboard-led|Onboard LED]]
+-  [[1.4 picotool|Picotool]]
+-  [[1.5 debugging|Debugging]]
 -  BOOTSEL as button
 -  Random numbers and SHA256
 -  RTC and timers
