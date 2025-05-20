@@ -1,0 +1,13 @@
+---
+title: 3 Advanced Programming
+---
+- Programming in C++
+- Programming in Python
+- Using multiple processors
+- Using persistent flash storage
+- Using the BOOTSEL button
+- Random numbers and SHA256
+- Timers and the RTC
+- Assembly programming
+- RISC-V
+- CMake

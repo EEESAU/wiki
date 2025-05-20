@@ -36,6 +36,10 @@ Once the project is opened, VSCode will automatically begin downloading the tool
 - You might have to say "Yes" to "Do you want to import this project as Raspberry Pi Pico project?"
 - View the progress in the notifications at the bottom right.
 - This step can take a few minutes as the toolchain is downloaded and installed.
+
+Ensure you have the following settings set:
+- SDK: `2.1.1`
+- Board: `pico2_w`
 ## Uploading code to the Pico
 Once the toolchain is finished downloading, VSCode will open the new project. 
 
