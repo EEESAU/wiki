@@ -1,5 +1,5 @@
 ---
 title: 4 Advanced Electronics
 ---
-- SD Card
+- I2C OLED Display
 - 

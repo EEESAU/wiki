@@ -1,8 +1,8 @@
 ---
 title: 3 Advanced Programming
 ---
-- Programming in C++
-- Programming in Python
+- **[[2.1 c-plus-plus|Programming in C++]]**
+- **[[2.2 python||Programming in Python]]**
 - Using multiple processors
 - Using persistent flash storage
 - Using the BOOTSEL button
