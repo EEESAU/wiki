@@ -4,8 +4,8 @@ title: 3 Advanced Programming
 More advanced programming concepts for Pico.
 
 - **[[3.1 c-plus-plus|Programming in C++]]**
-- **[[3.2 python||Programming in Python]]**
-- Using multiple processors
+- **[[3.2 python|Programming in Python]]**
+- [[3.3 multicore|Using multiple processors]]
 - Using persistent flash storage
 - [[3.5 bootsel-button|Using the BOOTSEL button]]
 - Random numbers and SHA256

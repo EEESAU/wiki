@@ -21,8 +21,7 @@ Install Visual Studio Code from the website: https://code.visualstudio.com/downl
 > cp tools/cat-suite/picotool ~/.pico-sdk/picotool/2.1.1/picotool/
 > cp tools/cat-suite/pioasm ~/.pico-sdk/tools/2.1.1/pioasm/
 > ```
-```
-```
+
 
 Open VSCode and install the [Raspberry Pi Pico Extension](https://marketplace.visualstudio.com/items/?itemName=raspberry-pi.raspberry-pi-pico).
 ![[pico-vscode-extension.png]]
