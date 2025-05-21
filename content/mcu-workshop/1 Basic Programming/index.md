@@ -1,6 +1,7 @@
 ---
 title: 1 Basic Programming
 ---
+Basics of how to program the Pico.
 
 -  [[1.1 reset-button|Reset Button]]
 -  [[1.2 serial-monitor|Serial Monitor]]
