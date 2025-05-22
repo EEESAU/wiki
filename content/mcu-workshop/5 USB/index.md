@@ -3,5 +3,4 @@ title: 5 USB
 ---
 USB functionality.
 
-- Emulate a USB HID device
-- Emulate a USB storage device
+- **[[5.1 usb-hid|Emulate a USB HID device]]**
