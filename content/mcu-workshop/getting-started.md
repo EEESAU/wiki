@@ -7,8 +7,8 @@ This is the development environment setup guide for Raspberry Pi Pico 2 W
 Install Visual Studio Code from the website: https://code.visualstudio.com/download
 - On Linux, VSCodium needs special launch parameters to work with the Pico extension. The Microsoft version of VSCode works out of the box.
 
-> [!warning] Setup for CAT Suite
-> If you're using a **CAT Suite** computer, you need to boot into Red Hat Linux. The Windows installation is missing Git, so you can't use it for this workshop. Reboot from Windows, and wait until you get an option to choose Red Hat.
+> [!warning] Setup for CAT Suite at the University of Adelaide
+> If you're a University of Adelaide student using a **CAT Suite** computer, you need to boot into Red Hat Linux. The Windows installation is missing Git, so you can't use it for this workshop. Reboot from Windows, and wait until you get an option to choose Red Hat.
 > 
 > The CAT Suite computers come with VSCode preinstalled.
 > 
@@ -29,12 +29,19 @@ Open VSCode and install the [Raspberry Pi Pico Extension](https://marketplace.vi
 [Look at the code repository for this workshop.](https://github.com/EEESAU/pico-workshop)
 
 Inside VSCode, go to the File Explorer. Press "Clone Repository" and paste the following URL: `https://github.com/EEESAU/pico-workshop.git`
+- You may need to install [Git](https://git-scm.com/downloads)
+
 ![[vscode-clone-repo.png]]
 
 Once the project is opened, VSCode will automatically begin downloading the toolchain for Raspberry Pi Pico.
 - You might have to say "Yes" to "Do you want to import this project as Raspberry Pi Pico project?"
 - View the progress in the notifications at the bottom right.
 - This step can take a few minutes as the toolchain is downloaded and installed.
+
+> [!warning] If the setup is stuck or isn't give an option to say "Yes"
+> In some cases, the setup process can get stuck. In this case, try restarting VSCode and reopening the project.
+> 
+> Expect to wait up to 15 minutes for the toolchain to download.
 
 Ensure you have the following settings set:
 - SDK: `2.1.1`
