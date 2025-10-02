@@ -9,6 +9,9 @@ Install Visual Studio Code from the website: https://code.visualstudio.com/downl
 
 > [!info] Using Windows and WSL
 > If you are using Windows, **WSL is not necessary**. Do not connect to WSL for the following steps.
+> 
+> You may need to install Git on Windows. See below.
+
 
 Open VSCode and install the [Raspberry Pi Pico Extension](https://marketplace.visualstudio.com/items/?itemName=raspberry-pi.raspberry-pi-pico).
 ![[pico-vscode-extension.png]]
