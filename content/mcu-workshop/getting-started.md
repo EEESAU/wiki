@@ -7,21 +7,8 @@ This is the development environment setup guide for Raspberry Pi Pico 2 W
 Install Visual Studio Code from the website: https://code.visualstudio.com/download
 - On Linux, VSCodium needs special launch parameters to work with the Pico extension. The Microsoft version of VSCode works out of the box.
 
-> [!warning] Setup for CAT Suite at the University of Adelaide
-> If you're a University of Adelaide student using a **CAT Suite** computer, you need to boot into Red Hat Linux. The Windows installation is missing Git, so you can't use it for this workshop. Reboot from Windows, and wait until you get an option to choose Red Hat.
-> 
-> The CAT Suite computers come with VSCode preinstalled.
-> 
-> ## A word of warning
-> Using a CAT Suite computer is a degraded experience compared to a computer you own. You will not be able to interact with the Pico over the serial port or using Picotool.
-> 
-> ## Additional setup step
-> Once you have opened the repository in VSCode, run the following commands to fix the CMake errors:
-> ```shell
-> cp tools/cat-suite/picotool ~/.pico-sdk/picotool/2.1.1/picotool/
-> cp tools/cat-suite/pioasm ~/.pico-sdk/tools/2.1.1/pioasm/
-> ```
-
+> [!info] Using Windows and WSL
+> If you are using Windows, **WSL is not necessary**. Do not connect to WSL for the following steps.
 
 Open VSCode and install the [Raspberry Pi Pico Extension](https://marketplace.visualstudio.com/items/?itemName=raspberry-pi.raspberry-pi-pico).
 ![[pico-vscode-extension.png]]
