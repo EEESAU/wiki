@@ -39,7 +39,7 @@ Ensure you have the following settings set:
 ## Uploading code to the Pico
 Once the toolchain is finished downloading, VSCode will open the new project. 
 
-Open the file `onboard_led.c` in the root directory.
+Open the file `led_tester.c` in the root directory.
 - This is a short program that turns on an LED built onto the Raspberry Pi Pico 2 W.
 
 To compile the code, choose `Compile Project` from the sidebar menu.
