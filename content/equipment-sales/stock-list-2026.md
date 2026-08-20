@@ -54,7 +54,7 @@ No data sheet available.
 ![[Comark-Type-1401.jpg|400x300]]
 
 ## 1x HP 3325A ($250)
-Data Sheet: https://docs.alltest.net/manual/Alltest-HP-Agilent-Keysight-3325A-Datasheet.pdf?_gl=1174q9p4_gcl_auNTU5OTY0ODI5LjE3ODYxMDQ4NTk._gaMTU2NzA1OTczOC4xNzg2MTA0ODU5_ga_M0W6P77MQW*czE3ODYxMDQ4NTkkbzEkZzEkdDE3ODYxMDQ4NjIkajU3JGwwJGgw 
+Data Sheet: https://docs.alltest.net/manual/Alltest-HP-Agilent-Keysight-3325A-Datasheet.pdf
 
 ![[HP-3325A.jpg|400x300]]
 
